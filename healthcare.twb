@@ -1,0 +1,1011 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0611.2007                               -->
+<workbook original-version='18.1' source-build='2023.2.0 (20232.23.0611.2007)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (cancer patient data sets)' inline='true' name='federated.1g54sg911ipmxd14e51j00eygwjl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cancer patient data sets' name='excel-direct.1fkmzwn0wpgyum12cnomf0oswxhh'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/91949/Downloads/cancer patient data sets.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1fkmzwn0wpgyum12cnomf0oswxhh' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:Y1001:no:A1:Y1001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Patient Id' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='integer' name='Gender' ordinal='2' />
+            <column datatype='integer' name='Air Pollution' ordinal='3' />
+            <column datatype='integer' name='Alcohol use' ordinal='4' />
+            <column datatype='integer' name='Dust Allergy' ordinal='5' />
+            <column datatype='integer' name='OccuPational Hazards' ordinal='6' />
+            <column datatype='integer' name='Genetic Risk' ordinal='7' />
+            <column datatype='integer' name='chronic Lung Disease' ordinal='8' />
+            <column datatype='integer' name='Balanced Diet' ordinal='9' />
+            <column datatype='integer' name='Obesity' ordinal='10' />
+            <column datatype='integer' name='Smoking' ordinal='11' />
+            <column datatype='integer' name='Passive Smoker' ordinal='12' />
+            <column datatype='integer' name='Chest Pain' ordinal='13' />
+            <column datatype='integer' name='Coughing of Blood' ordinal='14' />
+            <column datatype='integer' name='Fatigue' ordinal='15' />
+            <column datatype='integer' name='Weight Loss' ordinal='16' />
+            <column datatype='integer' name='Shortness of Breath' ordinal='17' />
+            <column datatype='integer' name='Wheezing' ordinal='18' />
+            <column datatype='integer' name='Swallowing Difficulty' ordinal='19' />
+            <column datatype='integer' name='Clubbing of Finger Nails' ordinal='20' />
+            <column datatype='integer' name='Frequent Cold' ordinal='21' />
+            <column datatype='integer' name='Dry Cough' ordinal='22' />
+            <column datatype='integer' name='Snoring' ordinal='23' />
+            <column datatype='string' name='Level' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1fkmzwn0wpgyum12cnomf0oswxhh' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:Y1001:no:A1:Y1001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Patient Id' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='integer' name='Gender' ordinal='2' />
+            <column datatype='integer' name='Air Pollution' ordinal='3' />
+            <column datatype='integer' name='Alcohol use' ordinal='4' />
+            <column datatype='integer' name='Dust Allergy' ordinal='5' />
+            <column datatype='integer' name='OccuPational Hazards' ordinal='6' />
+            <column datatype='integer' name='Genetic Risk' ordinal='7' />
+            <column datatype='integer' name='chronic Lung Disease' ordinal='8' />
+            <column datatype='integer' name='Balanced Diet' ordinal='9' />
+            <column datatype='integer' name='Obesity' ordinal='10' />
+            <column datatype='integer' name='Smoking' ordinal='11' />
+            <column datatype='integer' name='Passive Smoker' ordinal='12' />
+            <column datatype='integer' name='Chest Pain' ordinal='13' />
+            <column datatype='integer' name='Coughing of Blood' ordinal='14' />
+            <column datatype='integer' name='Fatigue' ordinal='15' />
+            <column datatype='integer' name='Weight Loss' ordinal='16' />
+            <column datatype='integer' name='Shortness of Breath' ordinal='17' />
+            <column datatype='integer' name='Wheezing' ordinal='18' />
+            <column datatype='integer' name='Swallowing Difficulty' ordinal='19' />
+            <column datatype='integer' name='Clubbing of Finger Nails' ordinal='20' />
+            <column datatype='integer' name='Frequent Cold' ordinal='21' />
+            <column datatype='integer' name='Dry Cough' ordinal='22' />
+            <column datatype='integer' name='Snoring' ordinal='23' />
+            <column datatype='string' name='Level' ordinal='24' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Y1001:no:A1:Y1001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient Id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Patient Id]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Patient Id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Air Pollution</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Air Pollution]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Air Pollution</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alcohol use</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alcohol use]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Alcohol use</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dust Allergy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dust Allergy]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Dust Allergy</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OccuPational Hazards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OccuPational Hazards]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>OccuPational Hazards</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genetic Risk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Genetic Risk]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Genetic Risk</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chronic Lung Disease</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[chronic Lung Disease]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>chronic Lung Disease</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Balanced Diet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Balanced Diet]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Balanced Diet</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Obesity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Obesity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Obesity</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Smoking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Smoking]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Smoking</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Passive Smoker</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Passive Smoker]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Passive Smoker</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chest Pain</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Chest Pain]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Chest Pain</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coughing of Blood</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Coughing of Blood]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Coughing of Blood</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fatigue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fatigue]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fatigue</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weight Loss</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Weight Loss]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Weight Loss</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shortness of Breath</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shortness of Breath]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Shortness of Breath</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wheezing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wheezing]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Wheezing</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Swallowing Difficulty</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Swallowing Difficulty]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Swallowing Difficulty</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clubbing of Finger Nails</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Clubbing of Finger Nails]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Clubbing of Finger Nails</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Frequent Cold</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Frequent Cold]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Frequent Cold</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dry Cough</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dry Cough]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Dry Cough</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snoring</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Snoring]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Snoring</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Level]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Level</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_E3AC3C053D33497BA027FDF2227E7268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Air Pollution]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Alcohol use]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Balanced Diet]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Chest Pain]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Clubbing of Finger Nails]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Coughing of Blood]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Dust Allergy]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Fatigue]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Frequent Cold]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Genetic Risk]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Level]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[OccuPational Hazards]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Passive Smoker]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Shortness of Breath]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Smoking]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Swallowing Difficulty]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Weight Loss]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Wheezing]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_E3AC3C053D33497BA027FDF2227E7268]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[chronic Lung Disease]' role='measure' type='quantitative' />
+      <column-instance column='[Level]' derivation='None' name='[none:Level:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Age]' derivation='Sum' name='[sum:Age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Air Pollution]' derivation='Sum' name='[sum:Air Pollution:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Alcohol use]' derivation='Sum' name='[sum:Alcohol use:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Balanced Diet]' derivation='Sum' name='[sum:Balanced Diet:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Chest Pain]' derivation='Sum' name='[sum:Chest Pain:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Clubbing of Finger Nails]' derivation='Sum' name='[sum:Clubbing of Finger Nails:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Coughing of Blood]' derivation='Sum' name='[sum:Coughing of Blood:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dust Allergy]' derivation='Sum' name='[sum:Dust Allergy:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fatigue]' derivation='Sum' name='[sum:Fatigue:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Frequent Cold]' derivation='Sum' name='[sum:Frequent Cold:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Genetic Risk]' derivation='Sum' name='[sum:Genetic Risk:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[OccuPational Hazards]' derivation='Sum' name='[sum:OccuPational Hazards:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Passive Smoker]' derivation='Sum' name='[sum:Passive Smoker:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Shortness of Breath]' derivation='Sum' name='[sum:Shortness of Breath:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Smoking]' derivation='Sum' name='[sum:Smoking:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Swallowing Difficulty]' derivation='Sum' name='[sum:Swallowing Difficulty:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Weight Loss]' derivation='Sum' name='[sum:Weight Loss:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wheezing]' derivation='Sum' name='[sum:Wheezing:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[chronic Lung Disease]' derivation='Sum' name='[sum:chronic Lung Disease:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Level:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;High&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>%all%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Passive Smoker:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Genetic Risk:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:OccuPational Hazards:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:chronic Lung Disease:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Age:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Wheezing:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Fatigue:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Dust Allergy:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Alcohol use:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Coughing of Blood:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Swallowing Difficulty:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Frequent Cold:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Chest Pain:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Air Pollution:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Shortness of Breath:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Smoking:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Weight Loss:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Balanced Diet:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Clubbing of Finger Nails:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_E3AC3C053D33497BA027FDF2227E7268'>
+            <properties context=''>
+              <relation connection='excel-direct.1fkmzwn0wpgyum12cnomf0oswxhh' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:Y1001:no:A1:Y1001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Patient Id' ordinal='0' />
+                  <column datatype='integer' name='Age' ordinal='1' />
+                  <column datatype='integer' name='Gender' ordinal='2' />
+                  <column datatype='integer' name='Air Pollution' ordinal='3' />
+                  <column datatype='integer' name='Alcohol use' ordinal='4' />
+                  <column datatype='integer' name='Dust Allergy' ordinal='5' />
+                  <column datatype='integer' name='OccuPational Hazards' ordinal='6' />
+                  <column datatype='integer' name='Genetic Risk' ordinal='7' />
+                  <column datatype='integer' name='chronic Lung Disease' ordinal='8' />
+                  <column datatype='integer' name='Balanced Diet' ordinal='9' />
+                  <column datatype='integer' name='Obesity' ordinal='10' />
+                  <column datatype='integer' name='Smoking' ordinal='11' />
+                  <column datatype='integer' name='Passive Smoker' ordinal='12' />
+                  <column datatype='integer' name='Chest Pain' ordinal='13' />
+                  <column datatype='integer' name='Coughing of Blood' ordinal='14' />
+                  <column datatype='integer' name='Fatigue' ordinal='15' />
+                  <column datatype='integer' name='Weight Loss' ordinal='16' />
+                  <column datatype='integer' name='Shortness of Breath' ordinal='17' />
+                  <column datatype='integer' name='Wheezing' ordinal='18' />
+                  <column datatype='integer' name='Swallowing Difficulty' ordinal='19' />
+                  <column datatype='integer' name='Clubbing of Finger Nails' ordinal='20' />
+                  <column datatype='integer' name='Frequent Cold' ordinal='21' />
+                  <column datatype='integer' name='Dry Cough' ordinal='22' />
+                  <column datatype='integer' name='Snoring' ordinal='23' />
+                  <column datatype='string' name='Level' ordinal='24' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cancer patient data sets)' name='federated.1g54sg911ipmxd14e51j00eygwjl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g54sg911ipmxd14e51j00eygwjl'>
+            <column datatype='integer' name='[Air Pollution]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Alcohol use]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Balanced Diet]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Clubbing of Finger Nails]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Coughing of Blood]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Dust Allergy]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Fatigue]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Frequent Cold]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Genetic Risk]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Level]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[OccuPational Hazards]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Passive Smoker]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Shortness of Breath]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Smoking]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Swallowing Difficulty]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Weight Loss]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Wheezing]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[chronic Lung Disease]' role='measure' type='quantitative' />
+            <column-instance column='[Level]' derivation='None' name='[none:Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Air Pollution]' derivation='Sum' name='[sum:Air Pollution:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Alcohol use]' derivation='Sum' name='[sum:Alcohol use:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Balanced Diet]' derivation='Sum' name='[sum:Balanced Diet:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Clubbing of Finger Nails]' derivation='Sum' name='[sum:Clubbing of Finger Nails:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Coughing of Blood]' derivation='Sum' name='[sum:Coughing of Blood:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dust Allergy]' derivation='Sum' name='[sum:Dust Allergy:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fatigue]' derivation='Sum' name='[sum:Fatigue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Frequent Cold]' derivation='Sum' name='[sum:Frequent Cold:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Genetic Risk]' derivation='Sum' name='[sum:Genetic Risk:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OccuPational Hazards]' derivation='Sum' name='[sum:OccuPational Hazards:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Passive Smoker]' derivation='Sum' name='[sum:Passive Smoker:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Shortness of Breath]' derivation='Sum' name='[sum:Shortness of Breath:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Smoking]' derivation='Sum' name='[sum:Smoking:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Swallowing Difficulty]' derivation='Sum' name='[sum:Swallowing Difficulty:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Weight Loss]' derivation='Sum' name='[sum:Weight Loss:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wheezing]' derivation='Sum' name='[sum:Wheezing:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[chronic Lung Disease]' derivation='Sum' name='[sum:chronic Lung Disease:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g54sg911ipmxd14e51j00eygwjl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:OccuPational Hazards:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Fatigue:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Clubbing of Finger Nails:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Dust Allergy:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Air Pollution:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Alcohol use:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Balanced Diet:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Genetic Risk:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:chronic Lung Disease:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Coughing of Blood:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Shortness of Breath:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Passive Smoker:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Smoking:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Swallowing Difficulty:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Weight Loss:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Wheezing:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Frequent Cold:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1g54sg911ipmxd14e51j00eygwjl].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:OccuPational Hazards:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Fatigue:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Clubbing of Finger Nails:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Dust Allergy:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Air Pollution:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Alcohol use:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Balanced Diet:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Genetic Risk:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:chronic Lung Disease:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Coughing of Blood:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Shortness of Breath:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Passive Smoker:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Smoking:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Swallowing Difficulty:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Weight Loss:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Wheezing:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1g54sg911ipmxd14e51j00eygwjl].[sum:Frequent Cold:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1g54sg911ipmxd14e51j00eygwjl].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1g54sg911ipmxd14e51j00eygwjl].[:Measure Names]' />
+            </encodings>
+            <reference-line axis-column='[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]' enable-instant-analytics='true' fill-above='false' fill-below='false' formula='confidence' id='refline0' label-type='none' paired-distribution-id='refline1' probability='95' scope='per-pane' show-lines='both' symmetric='false' value-column='[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]' z-order='1' />
+            <reference-line axis-column='[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' paired-distribution-id='refline0' probability='95' scope='per-pane' value-column='[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]' z-order='2' />
+            <reference-line axis-column='[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]' enable-instant-analytics='true' formula='average' id='refline2' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]' z-order='3' />
+            <reference-line axis-column='[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]' enable-instant-analytics='true' formula='average' id='refline3' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]' z-order='4' />
+            <reference-line axis-column='[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]' enable-instant-analytics='true' formula='average' id='refline4' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]' z-order='5' />
+          </pane>
+        </panes>
+        <rows>[federated.1g54sg911ipmxd14e51j00eygwjl].[Multiple Values]</rows>
+        <cols>([federated.1g54sg911ipmxd14e51j00eygwjl].[none:Level:nk] / [federated.1g54sg911ipmxd14e51j00eygwjl].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{045A8205-BFFD-4F45-8616-B6B76639E312}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g54sg911ipmxd14e51j00eygwjl].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1g54sg911ipmxd14e51j00eygwjl].[:Measure Names]</field>
+            <field>[federated.1g54sg911ipmxd14e51j00eygwjl].[none:Level:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{39C759D1-428B-459A-A5E7-EE2B67416477}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
